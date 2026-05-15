@@ -2,6 +2,10 @@
 
 A decoder-only Transformer language model built from scratch in PyTorch. Trained on character-level Shakespeare text, this project implements the core GPT architecture — including causal self-attention, multi-head attention, residual connections, and autoregressive generation — in ~200 lines of clean, readable code.
 
+## Disclaimer
+
+This project is an educational implementation inspired by Andrej Karpathy’s nanoGPT/ng-video-lecture workflow and was built to better understand transformer internals and autoregressive language modeling.
+
 ## Features
 
 - **Decoder-only Transformer** — Full GPT-style architecture with configurable depth and width
